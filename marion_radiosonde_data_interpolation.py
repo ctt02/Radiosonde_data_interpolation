@@ -1,7 +1,7 @@
-###This python script reads multiple csv files of "Maturilli, Marion (2021): High resolution radiosonde measurements from station Ny-Ålesund (2021-02). Alfred Wegener Institute - Research Unit Potsdam, PANGAEA" and linearly interpolated the variables. 
+###This python script reads multiple csv files of "Maturilli, Marion: High resolution radiosonde measurements from station Ny-Ålesund. Alfred Wegener Institute - Research Unit Potsdam, PANGAEA" and linearly interpolated the variables. 
 ###TIME and ETIM were not interpolated instead placed the nearest values corresponding to the Altitude values.
-###The origional Radiosonde data is in ".tab" format and converted to ".csv" format. I have used <> script for the conversion.
-
+###The origional Radiosonde data is in ".tab" format and converted to ".csv" format. I have used <marion_radiosonde_data_tab_to_csv.py> script for the conversion.
+###Linear Interpolation done at each meter from 17 to 10000m.
 
 
 
