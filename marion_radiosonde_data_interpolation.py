@@ -29,7 +29,7 @@ for input_file in csv_files:
 
     output_data = pd.DataFrame(columns=['Time', 'Latitude', 'Longitude', 'Height (m)', 'Pressure (hPa)',
                                         'Temperature (degC)', 'Relative Humidity (%)', 'Wind Direction (deg)',
-                                        'Wind Speed (m/s)'])
+                                        'Wind Speed (m/s)', 'ETIM', 'HGEOM'])
 
     for date, group in grouped:
         valid_mask = pd.to_numeric(group['Altitude'], errors='coerce').notnull()
