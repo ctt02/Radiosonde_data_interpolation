@@ -1,5 +1,5 @@
-###This python script takes the outputs from <marion_radiosonde_data_interpolation.py>.
-###This scripts merges the *_selected.py" and creates a single output and seperates the *.csv files for the variables in it.
+###This python script takes the outputs from <marion_radiosonde_data_interpolation_selected.py>.
+###This scripts merges the "*_selected.py" and creates a single output and seperates the *.csv files for the variables in it.
 
 
 import os
